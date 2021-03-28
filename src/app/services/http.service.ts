@@ -2,6 +2,7 @@ import { HttpClient, HttpParams } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { env } from 'process';
 import { Observable } from 'rxjs';
+import { APIResponse, Game } from '../models';
 
 @Injectable({
   providedIn: 'root'
